@@ -1,13 +1,13 @@
 <?php
+
 namespace Sereny\NovaPermissions\Nova;
 
 use Illuminate\Database\Query\Builder;
-use Laravel\Nova\Fields\ID;
-use Illuminate\Http\Request;
-use Laravel\Nova\Fields\Text;
 use Illuminate\Validation\Rule;
-use Laravel\Nova\Fields\Select;
+use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\MorphToMany;
+use Laravel\Nova\Fields\Select;
+use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Sereny\NovaPermissions\Fields\Checkboxes;
 use Sereny\NovaPermissions\Models\Role as RoleModel;

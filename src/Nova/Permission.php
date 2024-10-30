@@ -1,7 +1,7 @@
 <?php
+
 namespace Sereny\NovaPermissions\Nova;
 
-use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use Laravel\Nova\Fields\BelongsToMany;
 use Laravel\Nova\Fields\ID;
@@ -126,5 +126,4 @@ class Permission extends Resource
     {
         return __('Permission');
     }
-
 }
