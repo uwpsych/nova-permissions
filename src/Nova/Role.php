@@ -62,10 +62,10 @@ class Role extends Resource
     /**
      * Get the fields displayed by the resource.
      *
-     * @param  \Illuminate\Http\Request $request
+     * @param  \Laravel\Nova\Http\Requests\NovaRequest $request
      * @return array
      */
-    public function fields(Request $request)
+    public function fields(NovaRequest $request)
     {
         $guardOptions = $this->guardOptions($request);
         $userResource = $this->userResource();
